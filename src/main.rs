@@ -7,8 +7,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let client = reqwest::Client::new();
 
     let mut map = HashMap::new();
-    map.insert("username", "rajalinv");
-    map.insert("password", "password");
+    map.insert("username", "roopesh");
+    map.insert("password", "123");
 
     let auth_response = client
         .post("http://localhost:3000/v1/auth/")
